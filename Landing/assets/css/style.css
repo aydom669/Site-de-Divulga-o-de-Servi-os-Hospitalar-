@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Barlow:wght@600&family=Berkshire+Swash&family=Epilogue:wght@500;700&family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Josefin+Sans&family=Karla:wght@400;700&family=Manrope:wght@800&family=Montserrat:wght@600&family=Outfit:wght@300;400;600&family=Overpass:wght@300;600&family=Poppins:ital,wght@0,100;0,600;1,100;1,300&family=Raleway:wght@400;700&family=Roboto&display=swap");
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+  font-family: "Montserrat", sans-serif; }
+  html::-webkit-scrollbar {
+    width: 1rem; }
+  html::-webkit-scrollbar-track {
+    background: #ffffff; }
+  html::-webkit-scrollbar-thumb {
+    background: #3b8aff; }
+
+body {
+  background: #ffffff; }
+
+header {
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  transition: 0.5s; }
+  header:hover {
+    background: #fff;
+    box-shadow: 0px 6px 5px #3b8aff; }
+  header .nav {
+    border: 1px solid #0000;
+    display: flex;
+    align-items: center; }
+    header .nav a {
+      color: #000000; }
+
+main section .Primeiro__article {
+  width: 100%;
+  height: 424px;
+  display: flex;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.97) 16.13%, rgba(255, 255, 255, 0.74) 43.75%, rgba(60, 138, 255, 0.42) 100%); }
+  main section .Primeiro__article figure {
+    width: 100%; }
+    main section .Primeiro__article figure img {
+      position: relative;
+      width: 100%;
+      height: 583px;
+      left: 0px;
+      top: -10rem;
+      z-index: -1; }
+  main section .Primeiro__article .section__primeiro--text {
+    position: absolute;
+    margin-top: 5rem;
+    padding: 0 2rem; }
+    main section .Primeiro__article .section__primeiro--text span {
+      font-weight: bolder;
+      font-size: 2rem; }
+main section .article__contato {
+  height: 40vh;
+  width: 80%;
+  display: flex;
+  padding: 0 8rem;
+  justify-content: space-around;
+  align-items: center;
+  background: #3b8aff;
+  margin: 0 auto;
+  padding: 2rem 0;
+  margin-bottom: 2rem;
+  border-radius: 0px 0px 300px 300px; }
+  main section .article__contato .article__contato--text {
+    color: #fff;
+    text-align: center; }
+    main section .article__contato .article__contato--text span {
+      font-weight: bolder; }
+main section .article__card {
+  margin-bottom: 2rem;
+  margin-top: 4rem; }
+  main section .article__card .cards__content {
+    margin: 0 2rem;
+    box-shadow: 0px 2px 39px -1px #cccccc; }
+main section .article__profissionais--info {
+  width: 100%;
+  margin: 0 2rem;
+  margin-top: 10rem; }
+  main section .article__profissionais--info .article__profissionais--text {
+    width: 50%;
+    margin: 0 auto; }
+    main section .article__profissionais--info .article__profissionais--text h3 {
+      font-weight: 500;
+      font-size: 2.1rem; }
+    main section .article__profissionais--info .article__profissionais--text p {
+      font-size: 1.2rem; }
+  main section .article__profissionais--info .article__profissionais--cards {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2rem;
+    margin-top: 4rem; }
+    main section .article__profissionais--info .article__profissionais--cards figure img {
+      transition: 0.5s;
+      cursor: pointer; }
+      main section .article__profissionais--info .article__profissionais--cards figure img:hover {
+        box-shadow: 0px 2px 39px -1px #cccccc;
+        transform: translateY(-1rem); }
+main section .circular {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  margin-top: 7rem; }
+  main section .circular .content__circular--container--flex {
+    width: 70rem;
+    position: relative;
+    top: -30rem;
+    height: 70rem;
+    background: #3b8aff;
+    border-radius: 50%; }
+    main section .circular .content__circular--container--flex .circulo {
+      width: 251px;
+      height: 253px;
+      background: rgba(255, 255, 255, 0.2); }
+    main section .circular .content__circular--container--flex .circulos__1 {
+      position: relative;
+      top: 20rem;
+      left: 50rem; }
+    main section .circular .content__circular--container--flex .circulos__2 {
+      position: relative;
+      top: 35rem; }
+    main section .circular .content__circular--container--flex .circulos__3 {
+      position: relative;
+      top: 10rem;
+      left: 60rem; }
+    main section .circular .content__circular--container--flex .content__circular--text {
+      position: relative;
+      top: -12rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 80%;
+      color: #fff;
+      column-gap: 2rem;
+      overflow-y: hidden; }
+      main section .circular .content__circular--container--flex .content__circular--text .circulo__text {
+        width: 251px;
+        height: 220px;
+        position: relative;
+        top: -5rem;
+        background: #fff; }
+      main section .circular .content__circular--container--flex .content__circular--text p {
+        font-size: 1.5rem; }
+      main section .circular .content__circular--container--flex .content__circular--text a {
+        padding: 0.8rem 3rem;
+        background: #3cadff;
+        font-weight: 500;
+        color: #fff; }
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  bottom: 10rem; }
+  footer .text__footer {
+    text-align: center; }
+    footer .text__footer span {
+      font-weight: bold; }
+
+@media (max-width: 621px) {
+  header {
+    flex-direction: column; }
+    header .header__logo {
+      padding: 1rem 0; }
+
+  main section .article__contato {
+    flex-direction: column; }
+  main section .article__card .cards__content {
+    margin-top: 0; }
+  main section .section__segundo--text {
+    flex-direction: column; }
+    main section .section__segundo--text p {
+      padding: 0;
+      font-size: 1.2rem;
+      font-weight: 500;
+      text-align: center; }
+  main section .article__profissionais--info {
+    margin: 0; }
+    main section .article__profissionais--info .article__profissionais--cards {
+      margin: 0;
+      flex-direction: column; }
+  main section .circular {
+    margin-top: 20rem; }
+    main section .circular .content__circular--container--flex {
+      width: 100%;
+      padding: 0 2rem;
+      border-radius: 15px; }
+      main section .circular .content__circular--container--flex .content__circular--text {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; }
+        main section .circular .content__circular--container--flex .content__circular--text .circulo__text {
+          display: none; }
+
+  footer {
+    flex-direction: column; } }
+
+/*# sourceMappingURL=style.css.map */
